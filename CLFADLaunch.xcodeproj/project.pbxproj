@@ -13,6 +13,12 @@
 		7720767B20DB42F900B58347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7720767A20DB42F900B58347 /* Assets.xcassets */; };
 		7720767E20DB42F900B58347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7720767C20DB42F900B58347 /* LaunchScreen.storyboard */; };
 		7720768120DB42F900B58347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7720768020DB42F900B58347 /* main.m */; };
+		7720768A20DB453400B58347 /* CLFADLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7720768920DB453400B58347 /* CLFADLaunch.m */; };
+		7720769020DB790600B58347 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7720768F20DB790600B58347 /* WebViewController.m */; };
+		772076B720DC990B00B58347 /* default1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 772076B520DC990B00B58347 /* default1.jpg */; };
+		772076B820DC990B00B58347 /* default2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 772076B620DC990B00B58347 /* default2.jpg */; };
+		772076BA20DC990F00B58347 /* default3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 772076B920DC990F00B58347 /* default3.jpg */; };
+		772076BC20DC991500B58347 /* default0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 772076BB20DC991500B58347 /* default0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,14 @@
 		7720767D20DB42F900B58347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7720767F20DB42F900B58347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7720768020DB42F900B58347 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7720768820DB453400B58347 /* CLFADLaunch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFADLaunch.h; sourceTree = "<group>"; };
+		7720768920DB453400B58347 /* CLFADLaunch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFADLaunch.m; sourceTree = "<group>"; };
+		7720768E20DB790600B58347 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		7720768F20DB790600B58347 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		772076B520DC990B00B58347 /* default1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default1.jpg; sourceTree = "<group>"; };
+		772076B620DC990B00B58347 /* default2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default2.jpg; sourceTree = "<group>"; };
+		772076B920DC990F00B58347 /* default3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default3.jpg; sourceTree = "<group>"; };
+		772076BB20DC991500B58347 /* default0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default0.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,7 @@
 		7720766520DB42F900B58347 = {
 			isa = PBXGroup;
 			children = (
+				7720768720DB452200B58347 /* others */,
 				7720767020DB42F900B58347 /* CLFADLaunch */,
 				7720766F20DB42F900B58347 /* Products */,
 			);
@@ -69,6 +84,21 @@
 				7720768020DB42F900B58347 /* main.m */,
 			);
 			path = CLFADLaunch;
+			sourceTree = "<group>";
+		};
+		7720768720DB452200B58347 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				7720768820DB453400B58347 /* CLFADLaunch.h */,
+				7720768920DB453400B58347 /* CLFADLaunch.m */,
+				7720768E20DB790600B58347 /* WebViewController.h */,
+				7720768F20DB790600B58347 /* WebViewController.m */,
+				772076BB20DC991500B58347 /* default0.jpg */,
+				772076B520DC990B00B58347 /* default1.jpg */,
+				772076B620DC990B00B58347 /* default2.jpg */,
+				772076B920DC990F00B58347 /* default3.jpg */,
+			);
+			path = others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +160,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7720767E20DB42F900B58347 /* LaunchScreen.storyboard in Resources */,
+				772076B720DC990B00B58347 /* default1.jpg in Resources */,
+				772076BC20DC991500B58347 /* default0.jpg in Resources */,
 				7720767B20DB42F900B58347 /* Assets.xcassets in Resources */,
 				7720767920DB42F900B58347 /* Main.storyboard in Resources */,
+				772076B820DC990B00B58347 /* default2.jpg in Resources */,
+				772076BA20DC990F00B58347 /* default3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7720767620DB42F900B58347 /* ViewController.m in Sources */,
+				7720769020DB790600B58347 /* WebViewController.m in Sources */,
+				7720768A20DB453400B58347 /* CLFADLaunch.m in Sources */,
 				7720768120DB42F900B58347 /* main.m in Sources */,
 				7720767320DB42F900B58347 /* AppDelegate.m in Sources */,
 			);
@@ -281,8 +317,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AULHABZ7Y3;
 				INFOPLIST_FILE = CLFADLaunch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.CLFADLaunch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CLFADLaunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,8 +332,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AULHABZ7Y3;
 				INFOPLIST_FILE = CLFADLaunch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.CLFADLaunch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CLFADLaunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
